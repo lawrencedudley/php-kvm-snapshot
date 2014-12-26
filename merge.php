@@ -52,7 +52,6 @@ foreach ($blockDevices as $blockDevice) {
 	echo "filename = $fileName\n";
 	$deleteBacking = shell_exec("\n\n\n\nfind $dirName -type f ! -name $baseName -name $fileName\\* -exec rm -rf {} \;\n\n\n\n");
 	echo "OK, I'm all done and have deleted the old backing files for you - check that if everything works please!\n";
-	exit();
 }
 
 ?>
