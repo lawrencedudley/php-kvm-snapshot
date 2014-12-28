@@ -77,7 +77,6 @@ foreach ($blockDevices as $blockDevice) {
 	else
 	{
 		echo "No backing file - this must be the first backup in this set \n";
-		exit();
 	}
 }
 
